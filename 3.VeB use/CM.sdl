@@ -1,0 +1,45 @@
+TOKEN
+	Name  = CM_SUPPORT
+	Value  =  "1"
+	Help  = "Main switch to enable CM support in Project claregan"
+	TokenType = Boolean
+	TargetEQU = Yes
+	TargetMAK = Yes
+	Master = Yes
+End
+
+PATH
+	Name = "CM_DIR"
+End
+
+MODULE
+	Help  = "Includes CM.mak to Project claregang"
+	File  = "CM.mak"
+End
+
+
+ELINK
+	Name  = "$(BUILD_DIR)\CM.sdb"
+	Parent  = "SETUP_SDBS"
+	Priority  = 30
+	InvokeOrder = AfterParent
+End
+
+ELINK
+	Name  = "$(CM_DIR)\CM.sd"
+	Parent  = "SETUP_DEFINITIONS"
+	Priority  = 50
+	InvokeOrder = AfterParent
+End
+
+ELINK
+	Name = "$(BUILD_DIR)\CMDxe.ffs"
+	Parent = "FV_MAIN"
+	InvokeOrder = AfterParent
+End
+
+ELINK
+	Name = "$(BUILD_DIR)\CMPei.ffs"
+	Parent = "FV_BB"
+	InvokeOrder = AfterParent
+End

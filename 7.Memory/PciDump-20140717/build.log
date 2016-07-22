@@ -1,0 +1,48 @@
+
+Running ... ba.cmd X64
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Build type is not set, Use AMD64 As Default
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Could Not Find E:\training\07.Memory\PciDump-20140717\*.obj
+Creating DATER.MAK
+        1 file(s) moved.
+
+AMIBIOS SDL Processor v3.64.1043 (for SDL Language v2.58) 
+Copyright (c)2010 American Megatrends, Inc.
+Release date: Jul  7 2010,12:30:32
+Parsing scripts\Kernel.sdl
+Parsing Project\project.sdl
+Generating SDL output...
+BUILD\TOKEN.MAK :	TOKEN_MAK
+BUILD\token.h :	TOKEN_H
+Done...
+The system cannot find the file specified.
+The system cannot find the file specified.
+	E:\training\07.Memory\PciDump-20140717\EfiToolKit_20\BIN\AMD64\cl.exe /nologo /W3 /GS- /Gs81920 /Wp64 /DEFIX64 /DEFI_DEBUG /DEFI_APP_110 -I E:\training\07.Memory\PciDump-20140717\CpuLib -I E:\training\07.Memory\PciDump-20140717\MiscLib -I Project -I E:\training\07.Memory\PciDump-20140717\EfiToolKit_20\include\efishell -I E:\training\07.Memory\PciDump-20140717\EfiToolKit_20\include\efi110\em64t -I E:\training\07.Memory\PciDump-20140717\EfiToolKit_20\include\efi110\protocol -I E:\training\07.Memory\PciDump-20140717\EfiToolKit_20\include\efi110 -c Project\PciDump.c /FoE:\training\07.Memory\PciDump-20140717\Build\PciDump.OBJ
+PciDump.c
+project\PciDump.c(162) : warning C4013: 'wcscmp' undefined; assuming extern returning int
+project\PciDump.c(290) : warning C4244: '+=' : conversion from 'UINT64' to 'UINT32', possible loss of data
+project\PciDump.c(292) : warning C4244: '+=' : conversion from 'UINT64' to 'UINT32', possible loss of data
+project\PciDump.c(435) : warning C4244: '=' : conversion from 'UINT64' to 'UINT32', possible loss of data
+project\PciDump.c(430) : warning C4101: 'memType' : unreferenced local variable
+project\PciDump.c(529) : warning C4244: '=' : conversion from 'UINT64' to 'UINT32', possible loss of data
+project\PciDump.c(592) : warning C4319: '~' : zero extending 'UINT32' to 'UINT64' of greater size
+project\PciDump.c(592) : warning C4244: '=' : conversion from 'UINT64' to 'UINT32', possible loss of data
+project\PciDump.c(646) : warning C4244: '=' : conversion from 'UINT16' to 'unsigned char', possible loss of data
+project\PciDump.c(659) : warning C4244: '=' : conversion from 'UINT16' to 'unsigned char', possible loss of data
+project\PciDump.c(677) : warning C4244: 'function' : conversion from 'UINT64' to 'UINT32', possible loss of data
+project\PciDump.c(678) : warning C4244: 'function' : conversion from 'UINT64' to 'UINT32', possible loss of data
+project\PciDump.c(691) : warning C4013: 'EfiShrBit64' undefined; assuming extern returning int
+project\PciDump.c(695) : warning C4013: 'EfiAddBit64' undefined; assuming extern returning int
+project\PciDump.c(700) : warning C4013: 'EfiRetBit64' undefined; assuming extern returning int
+e:\training\07.memory\pcidump-20140717\project\pcidump.c(101) : warning C4715: 'PciScan_By_Protocol' : not all control paths return a value
+e:\training\07.memory\pcidump-20140717\project\pcidump.c(131) : warning C4716: 'PciDump_By_Io' : must return a value
+e:\training\07.memory\pcidump-20140717\project\pcidump.c(328) : warning C4700: uninitialized local variable 'MemoryMap' used
+	E:\training\07.Memory\PciDump-20140717\EfiToolKit_20\BIN\AMD64\ml64.exe /nologo /W3 /WX /c /Zi /DDEBUG /DEFIX64 /c E:\training\07.Memory\PciDump-20140717\CpuLib\X64\CpuX64.asm
+ Assembling: E:\training\07.Memory\PciDump-20140717\CpuLib\X64\CpuX64.asm
+	move *.obj E:\training\07.Memory\PciDump-20140717\Build\CpuX64.OBJ
+E:\training\07.Memory\PciDump-20140717\CpuX64.obj
+        1 file(s) moved.
+	E:\training\07.Memory\PciDump-20140717\EfiToolKit_20\BIN\AMD64\link.exe /NOLOGO /MACHINE:AMD64 /SUBSYSTEM:CONSOLE /NODEFAULTLIB /IGNORE:4086 /DEBUG /OPT:REF /NODEFAULTLIB /DLL /ENTRY:Bit64EntryPoint E:\training\07.Memory\PciDump-20140717\EfiToolKit_20\Lib\LibEfiAllx64.lib  E:\training\07.Memory\PciDump-20140717\Build\CpuX64.OBJ  E:\training\07.Memory\PciDump-20140717\Build\PciDump.OBJ /OUT:E:\training\07.Memory\PciDump-20140717\Build\Bit64_Test.dll
+	E:\training\07.Memory\PciDump-20140717\EfiToolKit_20\BIN\fwimage.exe app E:\training\07.Memory\PciDump-20140717\Build\Bit64_Test.dll E:\training\07.Memory\PciDump-20140717\BIN\Bit64_Testx64.efi
+Created E:\training\07.Memory\PciDump-20140717\BIN\Bit64_Testx64.efi

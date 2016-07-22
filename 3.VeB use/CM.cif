@@ -1,0 +1,16 @@
+<component>
+	name = "CM"
+	category = eModule
+	LocalRoot = "Board\EM\CM\"
+	RefName = "CM"
+[files]
+"CM.mak"	
+"CM.sd"	
+"CM.sdl"	
+"CM.uni"	
+"CMDxe.c"	
+"CMDxe.dxs"	
+"CMPei.c"	
+"CMPei.dxs"	
+"CMsetup.c"	
+<endComponent>

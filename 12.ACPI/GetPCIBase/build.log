@@ -1,0 +1,128 @@
+
+Running ... ba.cmd ALL
+Could Not Find E:\asus_code\12.ACPI\GetPCIBase\*.obj
+Creating DATER.MAK
+        1 file(s) moved.
+
+AMIBIOS SDL Processor v3.64.1043 (for SDL Language v2.58) 
+Copyright (c)2010 American Megatrends, Inc.
+Release date: Jul  7 2010,12:30:32
+Parsing scripts\Kernel.sdl
+Parsing Project\project.sdl
+Generating SDL output...
+BUILD\TOKEN.MAK :	TOKEN_MAK
+BUILD\token.h :	TOKEN_H
+Done...
+The system cannot find the file specified.
+The system cannot find the file specified.
+	E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\BIN\AMD64\cl.exe /nologo /W3 /GS- /Gs81920 /Wp64 /DEFIX64 /DEFI_DEBUG /DEFI_APP_110 -I E:\asus_code\12.ACPI\GetPCIBase\CpuLib -I E:\asus_code\12.ACPI\GetPCIBase\MiscLib -I Project -I E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\include\efishell -I E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\include\efi110\em64t -I E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\include\efi110\protocol -I E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\include\efi110 -c Project\PciDump.c /FoE:\asus_code\12.ACPI\GetPCIBase\Build\PciDump.OBJ
+PciDump.c
+project\PciDump.c(162) : warning C4013: 'wcscmp' undefined; assuming extern returning int
+project\PciDump.c(230) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(230) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(230) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(230) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(231) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(231) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(231) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(231) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(236) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(236) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(236) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(236) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(244) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(270) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT32 *' of greater size
+project\PciDump.c(275) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(283) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT32 *' of greater size
+project\PciDump.c(287) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(305) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT32 *' of greater size
+project\PciDump.c(305) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT32 *' of greater size
+project\PciDump.c(321) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT32 *' of greater size
+project\PciDump.c(323) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT32 *' of greater size
+project\PciDump.c(327) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT32 *' of greater size
+project\PciDump.c(328) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT32 *' of greater size
+project\PciDump.c(339) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT32 *' of greater size
+project\PciDump.c(363) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT32 *' of greater size
+project\PciDump.c(363) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT32 *' of greater size
+project\PciDump.c(380) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT32 *' of greater size
+project\PciDump.c(381) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT32 *' of greater size
+project\PciDump.c(384) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT32 *' of greater size
+project\PciDump.c(389) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT32 *' of greater size
+project\PciDump.c(391) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT32 *' of greater size
+project\PciDump.c(398) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT32 *' of greater size
+project\PciDump.c(400) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT32 *' of greater size
+project\PciDump.c(403) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(406) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(409) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT32 *' of greater size
+project\PciDump.c(412) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(415) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT32 *' of greater size
+project\PciDump.c(416) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(423) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(349) : warning C4101: 'EntryTable' : unreferenced local variable
+project\PciDump.c(353) : warning C4101: 'resetAddr' : unreferenced local variable
+e:\asus_code\12.acpi\getpcibase\project\pcidump.c(101) : warning C4715: 'PciScan_By_Protocol' : not all control paths return a value
+e:\asus_code\12.acpi\getpcibase\project\pcidump.c(131) : warning C4716: 'PciDump_By_Io' : must return a value
+	E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\BIN\AMD64\ml64.exe /nologo /W3 /WX /c /Zi /DDEBUG /DEFIX64 /c E:\asus_code\12.ACPI\GetPCIBase\CpuLib\X64\CpuX64.asm
+ Assembling: E:\asus_code\12.ACPI\GetPCIBase\CpuLib\X64\CpuX64.asm
+	move *.obj E:\asus_code\12.ACPI\GetPCIBase\Build\CpuX64.OBJ
+E:\asus_code\12.ACPI\GetPCIBase\CpuX64.obj
+        1 file(s) moved.
+	E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\BIN\AMD64\link.exe /NOLOGO /MACHINE:AMD64 /SUBSYSTEM:CONSOLE /NODEFAULTLIB /IGNORE:4086 /DEBUG /OPT:REF /NODEFAULTLIB /DLL /ENTRY:PCIBaseEntryPoint E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\Lib\LibEfiAllx64.lib  E:\asus_code\12.ACPI\GetPCIBase\Build\CpuX64.OBJ  E:\asus_code\12.ACPI\GetPCIBase\Build\PciDump.OBJ /OUT:E:\asus_code\12.ACPI\GetPCIBase\Build\PCIBase.dll
+	E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\BIN\fwimage.exe app E:\asus_code\12.ACPI\GetPCIBase\Build\PCIBase.dll E:\asus_code\12.ACPI\GetPCIBase\BIN\PCIBasex64.efi
+Created E:\asus_code\12.ACPI\GetPCIBase\BIN\PCIBasex64.efi
+Deleted file - E:\asus_code\12.ACPI\GetPCIBase\BUILD\asmsrc.lst
+Deleted file - E:\asus_code\12.ACPI\GetPCIBase\BUILD\CpuX64.OBJ
+Deleted file - E:\asus_code\12.ACPI\GetPCIBase\BUILD\dater.mak
+Deleted file - E:\asus_code\12.ACPI\GetPCIBase\BUILD\PCIBase.dll
+Deleted file - E:\asus_code\12.ACPI\GetPCIBase\BUILD\PCIBase.pdb
+Deleted file - E:\asus_code\12.ACPI\GetPCIBase\BUILD\PciDump.OBJ
+Deleted file - E:\asus_code\12.ACPI\GetPCIBase\BUILD\src.lst
+Deleted file - E:\asus_code\12.ACPI\GetPCIBase\BUILD\token.h
+Deleted file - E:\asus_code\12.ACPI\GetPCIBase\BUILD\TOKEN.MAK
+Creating DATER.MAK
+        1 file(s) moved.
+
+AMIBIOS SDL Processor v3.64.1043 (for SDL Language v2.58) 
+Copyright (c)2010 American Megatrends, Inc.
+Release date: Jul  7 2010,12:30:32
+Parsing scripts\Kernel.sdl
+Parsing Project\project.sdl
+Generating SDL output...
+BUILD\TOKEN.MAK :	TOKEN_MAK
+BUILD\token.h :	TOKEN_H
+Done...
+The system cannot find the file specified.
+The system cannot find the file specified.
+File Not Found
+	E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\BIN\VC7.1\cl.exe /D___STDC___ /nologo /W3 /Gm /Zi /Od /GF /Gy /Gs8192 /QIfist /X /DEFI32 /DEFI_DEBUG /DEFI_APP_110 -I E:\asus_code\12.ACPI\GetPCIBase\CpuLib -I E:\asus_code\12.ACPI\GetPCIBase\MiscLib -I Project -I E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\include\efishell -I E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\include\efi110\ia32 -I E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\include\efi110\protocol -I E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\include\efi110 -c Project\PciDump.c /FoE:\asus_code\12.ACPI\GetPCIBase\Build\PciDump.OBJ
+PciDump.c
+project\PciDump.c(162) : warning C4013: 'wcscmp' undefined; assuming extern returning int
+project\PciDump.c(349) : warning C4101: 'EntryTable' : unreferenced local variable
+project\PciDump.c(353) : warning C4101: 'resetAddr' : unreferenced local variable
+e:\asus_code\12.acpi\getpcibase\project\pcidump.c(101) : warning C4715: 'PciScan_By_Protocol' : not all control paths return a value
+e:\asus_code\12.acpi\getpcibase\project\pcidump.c(131) : warning C4716: 'PciDump_By_Io' : must return a value
+	E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\BIN\VC7.1\cl.exe /D___STDC___ /nologo /W3 /Gm /Zi /Od /GF /Gy /Gs8192 /QIfist /X /DEFI32 /DEFI_DEBUG /DEFI_APP_110 -I E:\asus_code\12.ACPI\GetPCIBase\CpuLib -I E:\asus_code\12.ACPI\GetPCIBase\MiscLib -I Project -I E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\include\efishell -I E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\include\efi110\ia32 -I E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\include\efi110\protocol -I E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\include\efi110 -c E:\asus_code\12.ACPI\GetPCIBase\CpuLib\IA32\CpuIA32.c /FoE:\asus_code\12.ACPI\GetPCIBase\Build\CpuIA32.OBJ
+CpuIA32.c
+	E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\BIN\VC7.1\link.exe /NOLOGO /MACHINE:X86 /SUBSYSTEM:CONSOLE /NODEFAULTLIB /IGNORE:4086 /DEBUG /OPT:REF /NODEFAULTLIB /DLL /ENTRY:PCIBaseEntryPoint E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\Lib\LibEfiAll.lib  E:\asus_code\12.ACPI\GetPCIBase\Build\PciDump.OBJ E:\asus_code\12.ACPI\GetPCIBase\Build\CpuIA32.OBJ  /OUT:E:\asus_code\12.ACPI\GetPCIBase\Build\PCIBase.dll
+E:\asus_code\12.ACPI\GetPCIBase\Build\PCIBase.dll : warning LNK4086: entrypoint '_PCIBaseEntryPoint' is not __stdcall with 12 bytes of arguments; image may not run
+LibEfiAll.lib(init.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\asus_code\12.ACPI\GetPCIBase\Build\vc70.pdb'; linking object as if no debug info
+LibEfiAll.lib(data.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\asus_code\12.ACPI\GetPCIBase\Build\vc70.pdb'; linking object as if no debug info
+LibEfiAll.lib(wcscmp.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\asus_code\12.ACPI\GetPCIBase\Build\vc70.pdb'; linking object as if no debug info
+LibEfiAll.lib(math.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\asus_code\12.ACPI\GetPCIBase\Build\vc70.pdb'; linking object as if no debug info
+LibEfiAll.lib(initplat.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\asus_code\12.ACPI\GetPCIBase\Build\vc70.pdb'; linking object as if no debug info
+LibEfiAll.lib(str.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\asus_code\12.ACPI\GetPCIBase\Build\vc70.pdb'; linking object as if no debug info
+LibEfiAll.lib(rtdata.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\asus_code\12.ACPI\GetPCIBase\Build\vc70.pdb'; linking object as if no debug info
+LibEfiAll.lib(efirtlib.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\asus_code\12.ACPI\GetPCIBase\Build\vc70.pdb'; linking object as if no debug info
+LibEfiAll.lib(str.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\asus_code\12.ACPI\GetPCIBase\Build\vc70.pdb'; linking object as if no debug info
+LibEfiAll.lib(print.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\asus_code\12.ACPI\GetPCIBase\Build\vc70.pdb'; linking object as if no debug info
+LibEfiAll.lib(misc.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\asus_code\12.ACPI\GetPCIBase\Build\vc70.pdb'; linking object as if no debug info
+LibEfiAll.lib(init.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\asus_code\12.ACPI\GetPCIBase\Build\vc70.pdb'; linking object as if no debug info
+LibEfiAll.lib(hand.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\asus_code\12.ACPI\GetPCIBase\Build\vc70.pdb'; linking object as if no debug info
+LibEfiAll.lib(guid.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\asus_code\12.ACPI\GetPCIBase\Build\vc70.pdb'; linking object as if no debug info
+LibEfiAll.lib(event.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\asus_code\12.ACPI\GetPCIBase\Build\vc70.pdb'; linking object as if no debug info
+LibEfiAll.lib(error.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\asus_code\12.ACPI\GetPCIBase\Build\vc70.pdb'; linking object as if no debug info
+LibEfiAll.lib(dpath.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\asus_code\12.ACPI\GetPCIBase\Build\vc70.pdb'; linking object as if no debug info
+LibEfiAll.lib(debug.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\asus_code\12.ACPI\GetPCIBase\Build\vc70.pdb'; linking object as if no debug info
+LibEfiAll.lib(data.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\asus_code\12.ACPI\GetPCIBase\Build\vc70.pdb'; linking object as if no debug info
+	E:\asus_code\12.ACPI\GetPCIBase\EfiToolKit_20\BIN\fwimage.exe app E:\asus_code\12.ACPI\GetPCIBase\Build\PCIBase.dll E:\asus_code\12.ACPI\GetPCIBase\BIN\PCIBase.efi
+Created E:\asus_code\12.ACPI\GetPCIBase\BIN\PCIBase.efi

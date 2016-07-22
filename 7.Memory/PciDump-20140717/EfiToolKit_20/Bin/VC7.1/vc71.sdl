@@ -1,0 +1,24 @@
+TOKEN
+	Name  = "TOOL_LFLAGS"
+	Value  = "/NODEFAULTLIB /ALIGN:32"
+	TokenType = Expression
+	TargetMAK = Yes
+End
+
+TOKEN
+	Name  = "VC71Tools_Support"
+	Value  = "1"
+	Help  = "Main switch to enable VC 7.1 Tools support in Project"
+	TokenType = Boolean
+	TargetMAK = Yes
+	Master = Yes
+End
+
+TOKEN
+	Name  = "TOOL_RULES"
+	Value  = "$(TOOL_DIR)\vc71.mak"
+	TokenType = Expression
+	TargetMAK = Yes
+End
+
+

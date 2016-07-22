@@ -1,0 +1,9 @@
+<component>
+	name = "Lib"
+	category = ModulePart
+	LocalRoot = "EfiToolKit_20\Lib\"
+	RefName = "Lib"
+[files]
+"LibEfiAll.lib"	
+"LibEfiAllx64.lib"	
+<endComponent>

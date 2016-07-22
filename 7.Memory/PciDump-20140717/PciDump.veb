@@ -1,0 +1,13 @@
+[project]
+	version = 1
+	Build = "nmake -f scripts\kernel32.mak backup"
+	BuildAll = "ba.cmd X64"
+	BoardFlavor = "PciDump"
+
+[files]
+"Kernel.cif"= Private
+"EfiToolKit_20\EfiToolKit_20.cif"= Private
+"EfiToolKit_20\Lib\Lib.cif"= Private
+"EfiToolKit_20\Include\Include.cif"= Private
+"EfiToolKit_20\Bin\Bin.cif"= Private
+"Project\project.cif"= Private

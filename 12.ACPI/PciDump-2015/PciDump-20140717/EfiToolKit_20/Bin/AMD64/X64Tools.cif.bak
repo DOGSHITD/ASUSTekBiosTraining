@@ -1,0 +1,20 @@
+<component>
+	name = "X64 Tools"
+	category = ModulePart
+	LocalRoot = "Aptio4Tools\AMD64\"
+	RefName = "X64 Tools"
+[files]
+"\c1.dll"	
+"\c1xx.dll"
+"\c2.dll"
+"\cl.exe"
+"\lib.exe"
+"\link.exe"
+"\ml64.exe"
+"\msobj80.dll"
+"\mspdb80.dll"
+"\msvcp80.dll"
+"\msvcr80.dll"
+"\1033\clui.dll"
+"\1033\linkui.dll"
+<endComponent>

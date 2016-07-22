@@ -1,0 +1,174 @@
+//**********************************************************************
+//**********************************************************************
+//**                                                                  **
+//**        (C)Copyright 1985-2007, American Megatrends, Inc.         **
+//**                                                                  **
+//**                       All Rights Reserved.                       **
+//**                                                                  **
+//**             6145-F Northbelt Pkwy, Norcross, GA 30071            **
+//**                                                                  **
+//**                       Phone: (770)-246-8600                      **
+//**                                                                  **
+//**********************************************************************
+//**********************************************************************
+//**********************************************************************
+//
+// $Header: /Alaska/Projects/Intel/Eaglelake/Eaglelake_ICH10_1ADXS/CRB/CRB.sd 1     1/17/08 5:18a Tonywu $
+//
+// $Revision: 1 $
+//
+// $Date: 1/17/08 5:18a $
+//
+//**********************************************************************
+// Revision History
+// ----------------
+// $Log: /Alaska/Projects/Intel/Eaglelake/Eaglelake_ICH10_1ADXS/CRB/CRB.sd $
+// 
+// 1     1/17/08 5:18a Tonywu
+// 
+//**********************************************************************
+
+//<AMI_FHDR_START>
+//----------------------------------------------------------------------------
+//
+// Name:    CRB.sd
+//
+// Description: Chipset Reference Board setup form
+//
+//----------------------------------------------------------------------------
+//<AMI_FHDR_END>
+
+#ifdef SETUP_DATA_DEFINITION
+//----------------------------------------------------------------------------
+// Put NVRAM data definitions here.
+// For example: UINT8 Data1;
+// These definitions will be converted by the build process
+// to a definitions of SETUP_DATA fields.
+//----------------------------------------------------------------------------
+UINT8 checkSex;
+#endif
+
+//----------------------------------------------------------------------------
+//                ADVANCED - CRB Configuration Form
+//----------------------------------------------------------------------------
+#ifdef ADVANCED_FORM_SET
+	#ifdef FORM_SET_ITEM
+	// Define controls to be added to the main page of the formset
+	#endif
+
+	#ifdef FORM_SET_GOTO
+	// Define goto commands for the forms defined in this file
+		goto STR_CM_FORM_ID, 
+		    prompt = STRING_TOKEN(STR_CM_FORM),
+		    help = STRING_TOKEN(STR_CM_FORM_HELP);
+
+	#endif
+
+	#ifdef FORM_SET_FORM
+	        form formid = AUTO_ID(STR_CM_FORM_ID),
+	            title = STRING_TOKEN(STR_CM_FORM);
+
+			    text 
+			        help   = STRING_TOKEN(STR_CZG_1),
+			        text   = STRING_TOKEN(STR_CZG_2),
+			        flags  = 0,
+			        key    = 0;
+				SEPERATIONLINE
+			    text 
+			        help   = STRING_TOKEN(STR_YANG_1),
+			        text   = STRING_TOKEN(STR_YANG_1),
+			        flags  = 0,
+			        key    = 0;
+			    text 
+			        help   = STRING_TOKEN(STR_YANG_2),
+			        text   = STRING_TOKEN(STR_YANG_2),
+			        flags  = 0,
+			        key    = 0;
+			    text 
+			        help   = STRING_TOKEN(STR_YANG_3),
+			        text   = STRING_TOKEN(STR_YANG_3),
+			        flags  = 0,
+			        key    = 0;
+			    text 
+			        help   = STRING_TOKEN(STR_YANG_4),
+			        text   = STRING_TOKEN(STR_YANG_4),
+			        flags  = 0,
+			        key    = 0;
+			    text 
+			        help   = STRING_TOKEN(STR_YANG_5),
+			        text   = STRING_TOKEN(STR_YANG_5),
+			        flags  = 0,
+			        key    = 0;
+			    text 
+			        help   = STRING_TOKEN(STR_YANG_6),
+			        text   = STRING_TOKEN(STR_YANG_6),
+			        flags  = 0,
+			        key    = 0;
+			    text 
+			        help   = STRING_TOKEN(STR_YANG_7),
+			        text   = STRING_TOKEN(STR_YANG_7),
+			        flags  = 0,
+			        key    = 0;
+			    text 
+			        help   = STRING_TOKEN(STR_YANG_8),
+			        text   = STRING_TOKEN(STR_YANG_8),
+			        flags  = 0,
+			        key    = 0;
+			    text 
+			        help   = STRING_TOKEN(STR_YANG_9),
+			        text   = STRING_TOKEN(STR_YANG_9),
+			        flags  = 0,
+			        key    = 0;
+			    text 
+			        help   = STRING_TOKEN(STR_YANG_10),
+			        text   = STRING_TOKEN(STR_YANG_10),
+			        flags  = 0,
+			        key    = 0;
+			    text 
+			        help   = STRING_TOKEN(STR_YANG_11),
+			        text   = STRING_TOKEN(STR_YANG_11),
+			        flags  = 0,
+			        key    = 0;
+			    text 
+			        help   = STRING_TOKEN(STR_YANG_12),
+			        text   = STRING_TOKEN(STR_YANG_12),
+			        flags  = 0,
+			        key    = 0;
+			    text 
+			        help   = STRING_TOKEN(STR_YANG_13),
+			        text   = STRING_TOKEN(STR_YANG_13),
+			        flags  = 0,
+			        key    = 0;
+			    text 
+			        help   = STRING_TOKEN(STR_YANG_14),
+			        text   = STRING_TOKEN(STR_YANG_14),
+			        flags  = 0,
+			        key    = 0;
+
+				SEPERATIONLINE
+			    oneof varid=SETUP_DATA.checkSex,
+					prompt = STRING_TOKEN(STR_CM_SEX),
+					help = STRING_TOKEN(STR_CM_SEX_HELP),
+					option text = STRING_TOKEN(STR_CM_MAIL),value = 0,flags = RESET_REQUIRED;
+					option text = STRING_TOKEN(STR_CM_FEMAIL),value = 1,flags = DEFAULT | RESET_REQUIRED;
+					//option text = STRING_TOKEN(STR_CZG_GAY), value = 2, flags = RESET_REQUIRED;
+			    endoneof;   		         
+	        endform;
+	// Define forms
+	#endif  // FORM_SET_FORM
+
+#endif  // TOOL_FORM_SET
+
+//**********************************************************************
+//**********************************************************************
+//**                                                                  **
+//**        (C)Copyright 1985-2007, American Megatrends, Inc.         **
+//**                                                                  **
+//**                       All Rights Reserved.                       **
+//**                                                                  **
+//**             6145-F Northbelt Pkwy, Norcross, GA 30071            **
+//**                                                                  **
+//**                       Phone: (770)-246-8600                      **
+//**                                                                  **
+//**********************************************************************
+//**********************************************************************

@@ -1,0 +1,6 @@
+#include <token.h>
+#include <PPI\stall.h>
+
+DEPENDENCY_START
+  EFI_PEI_STALL_PPI_GUID
+DEPENDENCY_END

@@ -1,0 +1,43 @@
+TOKEN
+	Name  = "Memmap_SUPPORT"
+	Value  = "1"
+	Help  = "Main switch to enable Project support in Project"
+	TokenType = Boolean
+	TargetEQU = Yes
+	TargetMAK = Yes
+	Master = Yes
+End
+
+PATH
+	Name  = "Memmap_DIR"
+End
+
+TOKEN
+	Name  = "Memmap_NAME"
+	Value  = "Memmap"
+	TokenType = Expression
+	TargetMAK = Yes
+End
+
+TOKEN
+	Name  = "MAJVER"
+	Value  = "0"
+	TokenType = Integer
+	TargetMAK = Yes
+	TargetH = Yes
+End
+
+TOKEN
+	Name  = "MINVER"
+	Value  = "00"
+	TokenType = Integer
+	TargetMAK = Yes
+	TargetH = Yes
+End
+
+TOKEN
+	Name  = "IMAGE_ENTRY_POINT"
+	Value  = "ClareEntryPoint"
+	TokenType = Expression
+	TargetMAK = Yes
+End

@@ -1,0 +1,121 @@
+
+Running ... ba.cmd ALL
+Could Not Find E:\training\12.ACPI\PciDump-2015\PciDump-20140717\*.obj
+Creating DATER.MAK
+        1 file(s) moved.
+
+AMIBIOS SDL Processor v3.64.1043 (for SDL Language v2.58) 
+Copyright (c)2010 American Megatrends, Inc.
+Release date: Jul  7 2010,12:30:32
+Parsing scripts\Kernel.sdl
+Parsing Project\project.sdl
+Generating SDL output...
+BUILD\TOKEN.MAK :	TOKEN_MAK
+BUILD\token.h :	TOKEN_H
+Done...
+The system cannot find the file specified.
+The system cannot find the file specified.
+	E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\BIN\AMD64\cl.exe /nologo /W3 /GS- /Gs81920 /Wp64 /DEFIX64 /DEFI_DEBUG /DEFI_APP_110 -I E:\training\12.ACPI\PciDump-2015\PciDump-20140717\CpuLib -I E:\training\12.ACPI\PciDump-2015\PciDump-20140717\MiscLib -I Project -I E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\include\efishell -I E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\include\efi110\em64t -I E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\include\efi110\protocol -I E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\include\efi110 -c Project\PciDump.c /FoE:\training\12.ACPI\PciDump-2015\PciDump-20140717\Build\PciDump.OBJ
+PciDump.c
+project\PciDump.c(162) : warning C4013: 'wcscmp' undefined; assuming extern returning int
+project\PciDump.c(230) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(230) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(230) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(230) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(231) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(231) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(231) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(231) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(236) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(236) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(236) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(236) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(244) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(270) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT32 *' of greater size
+project\PciDump.c(275) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(283) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT32 *' of greater size
+project\PciDump.c(287) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(313) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT32 *' of greater size
+project\PciDump.c(313) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT32 *' of greater size
+project\PciDump.c(330) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT32 *' of greater size
+project\PciDump.c(331) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT32 *' of greater size
+project\PciDump.c(334) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT32 *' of greater size
+project\PciDump.c(339) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT32 *' of greater size
+project\PciDump.c(341) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT32 *' of greater size
+project\PciDump.c(348) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT32 *' of greater size
+project\PciDump.c(350) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT32 *' of greater size
+project\PciDump.c(353) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(356) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(359) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT32 *' of greater size
+project\PciDump.c(362) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(365) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT32 *' of greater size
+project\PciDump.c(366) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(373) : warning C4312: 'type cast' : conversion from 'UINT32' to 'UINT8 *' of greater size
+project\PciDump.c(299) : warning C4101: 'EntryTable' : unreferenced local variable
+project\PciDump.c(303) : warning C4101: 'resetAddr' : unreferenced local variable
+e:\training\12.acpi\pcidump-2015\pcidump-20140717\project\pcidump.c(101) : warning C4715: 'PciScan_By_Protocol' : not all control paths return a value
+e:\training\12.acpi\pcidump-2015\pcidump-20140717\project\pcidump.c(131) : warning C4716: 'PciDump_By_Io' : must return a value
+	E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\BIN\AMD64\ml64.exe /nologo /W3 /WX /c /Zi /DDEBUG /DEFIX64 /c E:\training\12.ACPI\PciDump-2015\PciDump-20140717\CpuLib\X64\CpuX64.asm
+ Assembling: E:\training\12.ACPI\PciDump-2015\PciDump-20140717\CpuLib\X64\CpuX64.asm
+	move *.obj E:\training\12.ACPI\PciDump-2015\PciDump-20140717\Build\CpuX64.OBJ
+E:\training\12.ACPI\PciDump-2015\PciDump-20140717\CpuX64.obj
+        1 file(s) moved.
+	E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\BIN\AMD64\link.exe /NOLOGO /MACHINE:AMD64 /SUBSYSTEM:CONSOLE /NODEFAULTLIB /IGNORE:4086 /DEBUG /OPT:REF /NODEFAULTLIB /DLL /ENTRY:ACPIEntryPoint E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\Lib\LibEfiAllx64.lib  E:\training\12.ACPI\PciDump-2015\PciDump-20140717\Build\CpuX64.OBJ  E:\training\12.ACPI\PciDump-2015\PciDump-20140717\Build\PciDump.OBJ /OUT:E:\training\12.ACPI\PciDump-2015\PciDump-20140717\Build\ACPI.dll
+	E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\BIN\fwimage.exe app E:\training\12.ACPI\PciDump-2015\PciDump-20140717\Build\ACPI.dll E:\training\12.ACPI\PciDump-2015\PciDump-20140717\BIN\ACPIx64.efi
+Created E:\training\12.ACPI\PciDump-2015\PciDump-20140717\BIN\ACPIx64.efi
+Deleted file - E:\training\12.ACPI\PciDump-2015\PciDump-20140717\BUILD\ACPI.dll
+Deleted file - E:\training\12.ACPI\PciDump-2015\PciDump-20140717\BUILD\ACPI.pdb
+Deleted file - E:\training\12.ACPI\PciDump-2015\PciDump-20140717\BUILD\asmsrc.lst
+Deleted file - E:\training\12.ACPI\PciDump-2015\PciDump-20140717\BUILD\CpuX64.OBJ
+Deleted file - E:\training\12.ACPI\PciDump-2015\PciDump-20140717\BUILD\dater.mak
+Deleted file - E:\training\12.ACPI\PciDump-2015\PciDump-20140717\BUILD\PciDump.OBJ
+Deleted file - E:\training\12.ACPI\PciDump-2015\PciDump-20140717\BUILD\src.lst
+Deleted file - E:\training\12.ACPI\PciDump-2015\PciDump-20140717\BUILD\token.h
+Deleted file - E:\training\12.ACPI\PciDump-2015\PciDump-20140717\BUILD\TOKEN.MAK
+Creating DATER.MAK
+        1 file(s) moved.
+
+AMIBIOS SDL Processor v3.64.1043 (for SDL Language v2.58) 
+Copyright (c)2010 American Megatrends, Inc.
+Release date: Jul  7 2010,12:30:32
+Parsing scripts\Kernel.sdl
+Parsing Project\project.sdl
+Generating SDL output...
+BUILD\TOKEN.MAK :	TOKEN_MAK
+BUILD\token.h :	TOKEN_H
+Done...
+The system cannot find the file specified.
+The system cannot find the file specified.
+File Not Found
+	E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\BIN\VC7.1\cl.exe /D___STDC___ /nologo /W3 /Gm /Zi /Od /GF /Gy /Gs8192 /QIfist /X /DEFI32 /DEFI_DEBUG /DEFI_APP_110 -I E:\training\12.ACPI\PciDump-2015\PciDump-20140717\CpuLib -I E:\training\12.ACPI\PciDump-2015\PciDump-20140717\MiscLib -I Project -I E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\include\efishell -I E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\include\efi110\ia32 -I E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\include\efi110\protocol -I E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\include\efi110 -c Project\PciDump.c /FoE:\training\12.ACPI\PciDump-2015\PciDump-20140717\Build\PciDump.OBJ
+PciDump.c
+project\PciDump.c(162) : warning C4013: 'wcscmp' undefined; assuming extern returning int
+project\PciDump.c(299) : warning C4101: 'EntryTable' : unreferenced local variable
+project\PciDump.c(303) : warning C4101: 'resetAddr' : unreferenced local variable
+e:\training\12.acpi\pcidump-2015\pcidump-20140717\project\pcidump.c(101) : warning C4715: 'PciScan_By_Protocol' : not all control paths return a value
+e:\training\12.acpi\pcidump-2015\pcidump-20140717\project\pcidump.c(131) : warning C4716: 'PciDump_By_Io' : must return a value
+	E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\BIN\VC7.1\cl.exe /D___STDC___ /nologo /W3 /Gm /Zi /Od /GF /Gy /Gs8192 /QIfist /X /DEFI32 /DEFI_DEBUG /DEFI_APP_110 -I E:\training\12.ACPI\PciDump-2015\PciDump-20140717\CpuLib -I E:\training\12.ACPI\PciDump-2015\PciDump-20140717\MiscLib -I Project -I E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\include\efishell -I E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\include\efi110\ia32 -I E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\include\efi110\protocol -I E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\include\efi110 -c E:\training\12.ACPI\PciDump-2015\PciDump-20140717\CpuLib\IA32\CpuIA32.c /FoE:\training\12.ACPI\PciDump-2015\PciDump-20140717\Build\CpuIA32.OBJ
+CpuIA32.c
+	E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\BIN\VC7.1\link.exe /NOLOGO /MACHINE:X86 /SUBSYSTEM:CONSOLE /NODEFAULTLIB /IGNORE:4086 /DEBUG /OPT:REF /NODEFAULTLIB /DLL /ENTRY:ACPIEntryPoint E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\Lib\LibEfiAll.lib  E:\training\12.ACPI\PciDump-2015\PciDump-20140717\Build\PciDump.OBJ E:\training\12.ACPI\PciDump-2015\PciDump-20140717\Build\CpuIA32.OBJ  /OUT:E:\training\12.ACPI\PciDump-2015\PciDump-20140717\Build\ACPI.dll
+E:\training\12.ACPI\PciDump-2015\PciDump-20140717\Build\ACPI.dll : warning LNK4086: entrypoint '_ACPIEntryPoint' is not __stdcall with 12 bytes of arguments; image may not run
+LibEfiAll.lib(init.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\Build\vc70.pdb'; linking object as if no debug info
+LibEfiAll.lib(data.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\Build\vc70.pdb'; linking object as if no debug info
+LibEfiAll.lib(wcscmp.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\Build\vc70.pdb'; linking object as if no debug info
+LibEfiAll.lib(math.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\Build\vc70.pdb'; linking object as if no debug info
+LibEfiAll.lib(initplat.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\Build\vc70.pdb'; linking object as if no debug info
+LibEfiAll.lib(str.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\Build\vc70.pdb'; linking object as if no debug info
+LibEfiAll.lib(rtdata.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\Build\vc70.pdb'; linking object as if no debug info
+LibEfiAll.lib(efirtlib.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\Build\vc70.pdb'; linking object as if no debug info
+LibEfiAll.lib(str.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\Build\vc70.pdb'; linking object as if no debug info
+LibEfiAll.lib(print.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\Build\vc70.pdb'; linking object as if no debug info
+LibEfiAll.lib(misc.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\Build\vc70.pdb'; linking object as if no debug info
+LibEfiAll.lib(init.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\Build\vc70.pdb'; linking object as if no debug info
+LibEfiAll.lib(hand.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\Build\vc70.pdb'; linking object as if no debug info
+LibEfiAll.lib(guid.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\Build\vc70.pdb'; linking object as if no debug info
+LibEfiAll.lib(event.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\Build\vc70.pdb'; linking object as if no debug info
+LibEfiAll.lib(error.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\Build\vc70.pdb'; linking object as if no debug info
+LibEfiAll.lib(dpath.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\Build\vc70.pdb'; linking object as if no debug info
+LibEfiAll.lib(debug.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\Build\vc70.pdb'; linking object as if no debug info
+LibEfiAll.lib(data.obj) : warning LNK4099: PDB 'vc70.pdb' was not found with 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\Lib\LibEfiAll.lib' or at 'E:\training\12.ACPI\PciDump-2015\PciDump-20140717\Build\vc70.pdb'; linking object as if no debug info
+	E:\training\12.ACPI\PciDump-2015\PciDump-20140717\EfiToolKit_20\BIN\fwimage.exe app E:\training\12.ACPI\PciDump-2015\PciDump-20140717\Build\ACPI.dll E:\training\12.ACPI\PciDump-2015\PciDump-20140717\BIN\ACPI.efi
+Created E:\training\12.ACPI\PciDump-2015\PciDump-20140717\BIN\ACPI.efi

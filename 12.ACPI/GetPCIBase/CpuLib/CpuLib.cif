@@ -1,0 +1,10 @@
+<component>
+	name = "CpuLib"
+	category = eChipset
+	LocalRoot = "CpuLib"
+	RefName = "CpuLib"
+[files]
+"IA32\CpuIA32.c"	
+"X64\CpuX64.asm"
+"CpuLib.h"	
+<endComponent>

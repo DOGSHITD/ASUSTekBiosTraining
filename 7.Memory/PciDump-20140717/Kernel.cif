@@ -1,0 +1,12 @@
+<component>
+	name = "Kernel"
+	category = eCore
+	RefName = "Kernel"
+[files]
+"scripts\Kernel.sdl"	
+"ba.cmd"	
+"builda_AMD64.cmd"	
+"builda_X86.cmd"	
+"scripts\kernel32.mak"	
+"scripts\kernel64.mak"	
+<endComponent>

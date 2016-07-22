@@ -1,0 +1,10 @@
+<component>
+	name = "EfiToolKit_20"
+	category = CPU
+	LocalRoot = "EfiToolKit_20\"
+	RefName = "EfiToolKit_20"
+[parts]
+"Lib"
+"Include"
+"Bin"
+<endComponent>

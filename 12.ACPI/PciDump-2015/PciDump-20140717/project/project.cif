@@ -1,0 +1,9 @@
+<component>
+	name = "project"
+	category = eBoard
+	LocalRoot = "Project\"
+	RefName = "project"
+[files]
+"project.sdl"	
+"PciDump.c"	
+<endComponent>

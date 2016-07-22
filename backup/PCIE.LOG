@@ -1,0 +1,6 @@
+ID address  vID    dID   Width  Speed        Type
+1.f8008000  8086   0c01   X16    2.0     Root Port of PCI Express Root Complex
+2.f8018000  8086   0c0c   X 0    0.0     Root Complex Integrated Endpoint
+3.f80d8000  8086   8c20   X 0    0.0     Root Complex Integrated Endpoint
+4.f80e0000  8086   8c10   X 1    2.0     Root Port of PCI Express Root Complex
+5.f80e5000  8086   244e   X 1    2.0     Root Port of PCI Express Root Complex

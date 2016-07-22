@@ -1,0 +1,21 @@
+<component>
+	name = "VC7.1 Tools"
+	category = ModulePart
+	LocalRoot = "Aptio4Tools\VC7.1\"
+	RefName = "VC7.1 Tools"
+[files]
+"\c1.dll"
+"\c1xx.dll"
+"\c2.dll"
+"\cl.exe"
+"\lib.exe"
+"\link.exe"
+"\MSDBI60.DLL"
+"\msobj71.dll"
+"\mspdb71.dll"
+"\msvcp71.dll"
+"\msvcr71.dll"
+"\nmake.exe"
+"\vc71.sdl"	
+"\vc71.mak"	
+<endComponent>

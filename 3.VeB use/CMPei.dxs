@@ -1,0 +1,8 @@
+#include <token.h>
+#include <PPI\stall.h>
+#include <ppi\ReadOnlyVariable.h>
+
+DEPENDENCY_START
+  EFI_PEI_READ_ONLY_VARIABLE_PPI_GUID AND
+  EFI_PEI_STALL_PPI_GUID
+DEPENDENCY_END

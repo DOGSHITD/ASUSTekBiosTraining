@@ -1,0 +1,11 @@
+<component>
+	name = "Bin"
+	category = ModulePart
+	LocalRoot = "EfiToolKit_20\Bin\"
+	RefName = "Bin"
+[files]
+"fwimage.exe"	
+[parts]
+"VC7.1 Tools"
+"X64 Tools"
+<endComponent>

@@ -1,0 +1,9 @@
+<component>
+	name = "Memmap"
+	category = eBoard
+	LocalRoot = "MemMap\"
+	RefName = "Memmap"
+[files]
+"Memmap.sdl"
+"Memmap.c"	
+<endComponent>

@@ -1,0 +1,30 @@
+寫出以下命令 （在halt（suspend）狀態下執行）
+往80 port上顯示 0x99
+itp.threads[0].dport(0x80, 0x0099)
+
+讀取msr寄存器 0x200.
+itp.threads[0].msr(0x200)
+
+重啓目標機器
+itp.reset("target")
+
+修改物理內存位置 0x100一個word，使其值爲0x55AA
+itp.threads[0].mem("0x100P", 2,0x55AA)
+
+讀取物理內存offset 0位置0x100個byte
+itp.threads[0].memdump(0,  0x100, 1)
+
+設定CPU P0在進smm mode讓系統halt住的命令 
+itp.threads[0].cv.smmentrybreak = 1
+
+讀取CPU P1的reg ebx
+p1.state.regs.ebx
+
+讀取CPUID 0，返回eax值
+itp.threads[0].cpuid_eax(0)
+
+返回當前CPU的各個thread的狀態
+itp.status()
+
+顯示物理內存0xC0003的100 byte的代碼
+itp.threads[0].asm("0xC0003P", 100) 

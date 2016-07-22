@@ -1,0 +1,34 @@
+TOKEN
+	Name  = "Kernel_SUPPORT"
+	Value  = "1"
+	Help  = "Main switch to enable Kernel support in Project"
+	TokenType = Boolean
+	TargetEQU = Yes
+	TargetMAK = Yes
+	Master = Yes
+End
+
+TOKEN
+	Name  = "Aptio4Tool_DIR"
+	Value  = "D:\EfiTools\Aptio4Tools"
+	TokenType = Expression
+	TargetMAK = Yes
+End
+
+MODULE
+	Help  = "Includes Kernel.mak to Project"
+	File  = "Kernel.mak"
+End
+
+OUTPUTREGISTER
+	Name  = "TOKEN_H"
+	Path  = "BUILD"
+	File  = "token.h"
+End
+
+OUTPUTREGISTER
+	Name  = "TOKEN_MAK"
+	Path  = "BUILD"
+	File  = "TOKEN.MAK"
+End
+
